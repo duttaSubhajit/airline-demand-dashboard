@@ -1,19 +1,19 @@
-# ✈️ Airline Booking Market Demand Dashboard
+# Airline Booking Market Demand Dashboard
 
 A simple and interactive Streamlit web app that visualizes airline demand trends using Google Trends data. This tool helps analyze the popularity of specific airline routes over time, providing quick insights for decision-making.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📈 Visualizes search trends for any airline route.
-* 🔍 Generates basic demand insights (min, max, latest values).
-* 📊 Displays raw data in an easy-to-read table.
-* 🖥 Built with **Streamlit** and **Pytrends**.
+* Visualizes search trends for any airline route.
+* Generates basic demand insights (min, max, latest values).
+* Displays raw data in an easy-to-read table.
+* Built with **Streamlit** and **Pytrends**.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * Python 3.x
 * Streamlit
@@ -23,7 +23,7 @@ A simple and interactive Streamlit web app that visualizes airline demand trends
 
 ---
 
-## 📥 Installation
+## Installation
 
 1. **Clone the repository:**
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚦 How to Run
+## How to Run
 
 ```bash
 streamlit run airline.py
@@ -57,7 +57,7 @@ The app will open in your default browser at `http://localhost:8501`
 
 ---
 
-## ✏️ How to Use
+## How to Use
 
 1. Enter the **Origin City** (e.g., Sydney).
 2. Enter the **Destination City** (e.g., Melbourne).
@@ -66,7 +66,7 @@ The app will open in your default browser at `http://localhost:8501`
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 * Line Chart: Visualizes how search interest changes over time.
 * Insights: "The search demand for Flights from Sydney to Melbourne has fluctuated between 12 and 79 over the past 3 months. The latest demand index is 55."
@@ -74,14 +74,14 @@ The app will open in your default browser at `http://localhost:8501`
 
 ---
 
-## 💡 Limitations
+## Limitations
 
 * Uses Google search trend data as a **proxy** for real airline demand.
 * Cannot provide real-time booking data or actual flight prices.
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Integration with real airline data APIs like Skyscanner or AviationStack.
 * Predictive analytics using machine learning.
@@ -89,19 +89,19 @@ The app will open in your default browser at `http://localhost:8501`
 
 ---
 
-## 🤝 Contribution
+## Contribution
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * [Streamlit](https://streamlit.io/)
 * [Pytrends](https://github.com/GeneralMills/pytrends)
